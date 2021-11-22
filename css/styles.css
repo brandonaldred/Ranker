@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #242424;
+    color: #fff;
+}
+
+#container {
+    max-width: 600px;
+    min-width: 390px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+}
+
+#header p:first-child {
+    color: #DDFD1C;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+#header h1 {
+    margin: -10px;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+#header p:last-child {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.bar {
+    width: 20%;
+    border-bottom: 1px solid #DDFD1C;
+}
+
+.bar-center {
+    margin: 10px auto;
+}
+
+#items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 6px solid #ffffff;
+    display: flex;
+}
+
+.item img {
+    object-fit:cover;
+    min-width: 100%;
+    cursor: pointer;
+}
+
+#ranking h2 {
+    margin: 60px auto 10px auto;
+    text-transform: capitalize;
+    font-size: 1.75em;
+}
+
+#ranking li {
+    line-height: 2em;
+    font-size: 1.25em;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.line {
+    width: 100px;
+    border-bottom: 1px solid #3C3C3C;
+    margin: 0;
+}
