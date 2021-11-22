@@ -119,7 +119,6 @@ const objects = [{
     },
 ];
 
-//load random items from array
 const count = objects.length;
 const numberOfItems = 2
 
@@ -168,12 +167,6 @@ function calculateRank(w) {
     }
 }
 
-/*
-Pick two random objects from the objects array.
-
-objects[items[i]].wins++;
-            objects[items[i]].rank = objects[items[i]].wins / objects[items[i]].games;
-*/
 function loadPage() {
     let items = generateId(count, numberOfItems);
     const itemContainer = document.getElementById('items');
@@ -198,22 +191,3 @@ function loadPage() {
 }
 
 loadPage();
-//Create an element to hold the object and image
-//Increase each elements games played counter
-
-//Add source attribute
-//Add name attribute
-
-//Add click handler
-//On click -
-//Grab item that was clicked
-//Grab item that was not clicked
-
-//Find winning item in array of objects
-//Increase win count of winning item
-//Calculate rank of winning item
-
-//Find losing item in array of objects
-//Calculate rank of losing item
-
-//start game over
